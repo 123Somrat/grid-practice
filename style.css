@@ -1,0 +1,43 @@
+.container{
+    border:1px solid red;
+    display: grid;
+    grid-template-areas:
+    'header header header header header'
+    'navbar main main main sidebar'
+    'navbar main main main sidebar' 
+    'navbar main main main addb'
+    'navbar main main main addb'
+    'footer footer footer footer footer';
+    height:350px;             
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+   
+    
+}
+.header{
+    grid-area:header;
+    background-color: aquamarine;
+    
+}
+.nav{
+    grid-area: navbar;
+    background-color:aliceblue;
+}
+.main{
+    grid-area: main;
+    background-color: brown;
+}
+.sidebar{
+   grid-area: sidebar;
+   background-color: black;
+}
+.addb{
+    background-color:greenyellow;
+    grid-area: addb;
+}
+.footer{
+    background-color:grey;
+    grid-area: footer;
+
+}
